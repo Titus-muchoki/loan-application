@@ -1,0 +1,14 @@
+{{#partial "content"}}
+
+    <h1> List o' loans to do!</h1>
+
+    {{#if loans}}
+        {{#each loans }}
+            <p><a href="/categories/{{categoryId}}/loans/{{id}}">{{description}}</a></p>
+        {{/each}}
+    {{else}}
+        <p>No loans!</p>
+    {{/if}}
+{{/partial}}
+
+{{> layout.hbs}}

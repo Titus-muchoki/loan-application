@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.LoanTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2022-11-20T08:14:35" hostname="kajela-HP-EliteBook-840-G3" time="0.028">
+  <properties/>
+  <testcase name="testEquals1" classname="models.LoanTest" time="0.005"/>
+  <testcase name="testEquals2" classname="models.LoanTest" time="0.0"/>
+  <testcase name="getCompleted" classname="models.LoanTest" time="0.0"/>
+  <testcase name="LoanInstantiatesWithDescription_true" classname="models.LoanTest" time="0.01"/>
+  <testcase name="NewLoanObjectGetsCorrectlyCreated_true" classname="models.LoanTest" time="0.002"/>
+  <testcase name="isCompletedPropertyIsFalseAfterInstantiation" classname="models.LoanTest" time="0.0"/>
+  <testcase name="isCompleted" classname="models.LoanTest" time="0.0"/>
+  <testcase name="getId" classname="models.LoanTest" time="0.001"/>
+  <testcase name="setId" classname="models.LoanTest" time="0.0"/>
+  <testcase name="setCompleted" classname="models.LoanTest" time="0.0"/>
+  <testcase name="setDescription" classname="models.LoanTest" time="0.0"/>
+  <testcase name="getCreatedAtInstantiatesWithCurrentTimeToday" classname="models.LoanTest" time="0.0"/>
+  <testcase name="getCreatedAt" classname="models.LoanTest" time="0.001"/>
+  <testcase name="testHashCode" classname="models.LoanTest" time="0.0"/>
+  <testcase name="testHashCode1" classname="models.LoanTest" time="0.001"/>
+  <testcase name="testHashCode2" classname="models.LoanTest" time="0.0"/>
+  <testcase name="getCategoryId" classname="models.LoanTest" time="0.001"/>
+  <testcase name="testEquals" classname="models.LoanTest" time="0.0"/>
+  <testcase name="setCategoryId" classname="models.LoanTest" time="0.001"/>
+  <testcase name="getDescription" classname="models.LoanTest" time="0.0"/>
+  <testcase name="setCreatedAt" classname="models.LoanTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

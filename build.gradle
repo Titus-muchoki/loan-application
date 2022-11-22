@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'online-loan'// this could be different
+version '1.0-SNAPSHOT'
+
+mainClassName = 'App'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'junit', name: 'junit', version: '4.12'
+    implementation "com.sparkjava:spark-core:2.9.4"
+    implementation "com.sparkjava:spark-template-handlebars:2.7.1"
+    implementation 'org.slf4j:slf4j-simple:2.0.3'
+    implementation 'org.sql2o:sql2o:1.6.0'
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.2'
+    implementation group: 'postgresql', name: 'postgresql', version: '9.0-801.jdbc4'
+
+}

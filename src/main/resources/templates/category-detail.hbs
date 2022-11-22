@@ -1,0 +1,15 @@
+{{#partial "content"}}
+    <h1>{{category.name}}</h1>
+    <p>Here are all the loan                                                                                 s listed in this category:</p>
+    <ul>
+        {{#each loans}}
+            <li>
+                <p><a href="/categories/{{category.id}}/loans/{{id}}">{{description}}</a></p>
+            </li>
+        {{/each}}
+    </ul>
+    <a href="/categories/{{category.id}}/edit">Edit this category</a><br>
+    <a href="/categories/{{category.id}}/delete">DELETE this category</a>
+{{/partial}}
+
+{{> layout.hbs}}
